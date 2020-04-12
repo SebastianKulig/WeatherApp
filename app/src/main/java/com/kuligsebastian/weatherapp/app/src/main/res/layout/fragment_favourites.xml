@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/relative_layout_rounded_corners">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/del_favs"
+                    android:textSize="20sp"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:visibility="invisible"
+                    android:layout_toStartOf="@+id/button_delete">
+                </TextView>
+                <ImageButton
+                    android:id="@+id/button_delete"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:visibility="invisible"
+                    android:src="@drawable/ic_delete_black_24dp"
+                    android:scaleX="1.2"
+                    android:scaleY="1.2"
+                    android:tint="?attr/colorAccent"
+                    android:backgroundTint="@color/transparent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp">
+                </ImageButton>
+
+            </RelativeLayout>
+            <ListView
+                android:id="@+id/list_view_list"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="singleChoice">
+            </ListView>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
