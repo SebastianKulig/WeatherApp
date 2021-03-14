@@ -3,18 +3,15 @@
 Quick overview
 This app was created as a project for High Level Languages classes ad AGH university. Second Author is Karol Wnęk. Weather data is provided by OpenWeather API.
 
-Main screen.
-main_screen
 
-Custom layout for horizontal orientation.
-main_screen_horizontal
+Main screen
+<img src="assets/main_screen.png" width=300 > 
 
 Favourites tab.
-favourites
+<img src="assets/favourite.png" width=300 > 
 
 Search tab.
-search
-
+<img src="assets/search.png" width=300 > 
 
 
 ## Technology:
