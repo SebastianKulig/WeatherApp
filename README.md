@@ -1,5 +1,5 @@
 
-##Weather app for Android based devices
+## Weather app for Android based devices
 Quick overview
 This app was created as a project for High Level Languages classes ad AGH university. Second Author is Karol Wnęk. Weather data is provided by OpenWeather API.
 
@@ -17,7 +17,7 @@ search
 
 
 
-##Technology:
+## Technology:
 * retrofit2
 * Gson
 * fused location API
